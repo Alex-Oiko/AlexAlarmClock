@@ -24,7 +24,7 @@ public class DisplayMessageActivity extends Activity {
 	@SuppressLint("NewApi")
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		//this.setContentView(R.layout.activity_display_message);
+		//setContentView(R.layout.activity_display_message);
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             // Show the Up button in the action bar.
             getActionBar().setDisplayHomeAsUpEnabled(true);
